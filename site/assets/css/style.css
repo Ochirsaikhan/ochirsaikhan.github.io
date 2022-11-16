@@ -120,7 +120,8 @@ h6 {
 }
 
 body {
-  background: #fff;
+  /* background: #fff; */
+  background: #11081e;
 }
 
 .section-title {
@@ -192,7 +193,8 @@ textarea.form-control {
 
 .site-navigation {
   padding: 20px 0;
-  background: #fff;
+  /* background: #fff; */
+  background: #f3b045;
   position: fixed;
   top: 0;
   width: 100%;
@@ -219,7 +221,7 @@ textarea.form-control {
   margin: 0;
 }
 .site-navigation .navbar-brand img {
-  max-width: 78px;
+  max-width: 150px;
 }
 @media (max-width: 991px) {
   .site-navigation .nav-item {
@@ -234,7 +236,7 @@ textarea.form-control {
   position: relative;
 }
 .site-navigation .nav-item .nav-link:hover {
-  color: #EAA4A4;
+  color: #27452a;
 }
 .site-navigation .nav-item:last-child {
   margin-left: 15px;
@@ -306,8 +308,9 @@ textarea.form-control {
     padding: 150px 0;
   }
 }
-.site-hero-content h1 {
+.site-hero-content h1, h6{
   margin-bottom: 75px;
+  color: white
 }
 @media (max-width: 991px) {
   .site-hero-content h1 {
@@ -725,7 +728,7 @@ textarea.form-control {
 }
 
 .site-testimonial {
-  background: #F7F9FF;
+  background: #27452a;
   padding: 100px 0;
   overflow: hidden;
 }
