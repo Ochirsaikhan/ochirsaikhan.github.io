@@ -1,23 +1,19 @@
 {
   "footerLogo": "/assets/images/logo-footer.png",
 
-  "contactsHeading": "Contact Info",
+  "contactsHeading": "Contact Information",
   "contactsInfo":[
     {
-      "link":"https://goo.gl/maps/fBANt7Ns2wi6mM7cA",
-      "text":"713 Elmwood St. Prior Lake, MN 55372"
+      "link":"https://www.google.com/maps?client=safari&rls=en&q=allegheny+college&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjOtILJoLH7AhVSElkFHRBhAtoQ_AUoAnoECAEQBA",
+      "text":"520 N Main St, Meadville, PA 16335"
     },
     {
-      "link":"tel:409-896-1444",
-      "text":"409-896-1444"
-    },
-    {
-      "link":"tel:409-781-1308",
-      "text":"409-781-1308"
+      "link":"tel:814-350-0145",
+      "text":"814-350-0145"
     },
     {
       "link":"mailto:",
-      "text":"info@roxo.co"
+      "text":"davaajambal01@allegheny.edu"
     }
   ],
 
@@ -25,7 +21,7 @@
   "siteMap":[
     {
       "link":"about",
-      "text":"About Company"
+      "text":"About Me"
     },
     {
       "link":"portfolio",
@@ -44,26 +40,15 @@
   "socialHeading":"Social Media",
   "socialMedia":[
     {
-      "link":"#",
-      "text":"Medium"
+      "link":"https://www.linkedin.com/in/ochirsaikhan-davaajambal",
+      "text":"LinkedIn"
     },
     {
-      "link":"#",
-      "text":"Behance"
-    },
-    {
-      "link":"#",
-      "text":"Dribbble"
-    },
-    {
-      "link":"#",
-      "text":"Instagram"
+      "link":"https://github.com/Ochirsaikhan",
+      "text":"GitHub"
     }
   ],
   
-  "brandHeading":"We help brands:",
-  "brandMotto":["develop design solutions","produce valuable cultural content","create fresh brand experience"],
-
   "back2topIcon":"/assets/images/to-top.svg",
   "customerComment":"I want to visit again"
 }
