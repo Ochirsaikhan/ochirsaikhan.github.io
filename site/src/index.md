@@ -13,7 +13,7 @@ hero:
     link: "contact"
 
 portfolio:
-  subTitle: "OUR RECENT WORKS"
+  subTitle: "Projects"
   title: "Crafting experiences and seeking to make the complex clear & beautiful."
   seeAllbtn:
     link: "portfolio"
