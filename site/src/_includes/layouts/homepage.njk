@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <div class="site-hero-content text-center">
+            <div class="site-hero-content">
               <h6>{{hero.subTitle}}</h6>
               <h1>
                 {{hero.title.firstPara}}
@@ -42,7 +42,7 @@
       </a>
     </section>
 
-    <section class="site-counter" id="counter">
+    {# <section class="site-counter" id="counter">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -60,7 +60,7 @@
           {% endfor %}
         </div>
       </div>
-    </section>
+    </section> #}
 
     <section class="site-project" id="project">
       <div class="container">
@@ -70,9 +70,10 @@
               <h2>{{portfolio.subTitle}}</h2>
               <p>{{portfolio.title}}</p>
             </div>
-          </div>
+        </div>
+        <div class="row">
           {% for portfolio in collections.portfolios %}
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-lg-10 col-md-10 mx-auto">
             <div class="site-project-item">
               <div class="site-project-item-thumb">
                 <img src="{{portfolio.data.img}}" alt="project-thumb">
@@ -87,12 +88,11 @@
           {% endfor %}
           <div class="col-12 text-center text-lg-left">
             <a href="/{{portfolio.seeAllbtn.link}}" class="site-project-cta">{{portfolio.seeAllbtn.text}}</a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section class="site-testimonial">
+    {# <section class="site-testimonial">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -125,6 +125,6 @@
           {% endfor %}
         </div>
       </div>
-    </section>
+    </section> #}
   
 {% endblock %}
