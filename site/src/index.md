@@ -1,10 +1,10 @@
 ---
 layout: "layouts/homepage.njk"
 hero:
-  subTitle: "WE WORK HARD, WE PLAY HARD"
+  subTitle: "ASPIRING SOFTWARE ENGINEER"
   title:
-    firstPara: "We’re a Design Studio"
-    secondPara: "That Believes In Great Ideas"
+    firstPara: "Hi there! I'm"
+    secondPara: "OCHIRSAIKHAN"
   seeWorkBtn:
     text: "See Our Works"
     link: "#project"
