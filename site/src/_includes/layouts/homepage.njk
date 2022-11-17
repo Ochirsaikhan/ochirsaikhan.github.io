@@ -71,9 +71,8 @@
               <p>{{portfolio.title}}</p>
             </div>
         </div>
-        <div class="row">
           {% for portfolio in collections.portfolios %}
-          <div class="col-lg-10 col-md-10 mx-auto">
+          <div class="col-lg-10 col-md-10 mx-auto move-position">
             <div class="site-project-item">
               <div class="site-project-item-thumb">
                 <img src="{{portfolio.data.img}}" alt="project-thumb">
@@ -88,7 +87,6 @@
           {% endfor %}
           <div class="col-12 text-center text-lg-left">
             <a href="/{{portfolio.seeAllbtn.link}}" class="site-project-cta">{{portfolio.seeAllbtn.text}}</a>
-        </div>
       </div>
     </section>
 
