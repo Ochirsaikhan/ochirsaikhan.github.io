@@ -392,10 +392,12 @@ textarea.form-control {
 }
 .site-project-item, .site-blog-post {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
   transition: all 0.3s ease-in;
   padding-bottom: 160px;
+  box-shadow: 0 20px 80px 0 #5f36946b;
 }
+
 .site-project-item-thumb img, .site-blog-post-thumb img {
   width: 100%;
   height: 100%;
@@ -450,6 +452,26 @@ textarea.form-control {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* Make project list tilted to each */
+.move-position:nth-child(even) {
+  transform: translate(25px);
+}
+
+.move-position:nth-child(odd) {
+  transform: translate(-25px);
+}
+
+/* Remove the positioning when the screen is smaller than 991px */
+@media (max-width: 991px) {
+  .move-position:nth-child(even) {
+    transform: translate(0);
+  }
+  .move-position:nth-child(odd) {
+    transform: translate(0);
+  }
+}
+
 .site-project-cta {
   margin-top: 30px;
   display: inline-block;
