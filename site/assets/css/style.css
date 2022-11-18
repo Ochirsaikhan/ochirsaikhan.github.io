@@ -453,7 +453,7 @@ textarea.form-control {
 }
 
 .site-project, .site-blog {
-  padding: 120px 0;
+  padding-top: 100px;
   overflow: hidden;
 }
 .site-project-item, .site-blog-post {
@@ -1130,6 +1130,9 @@ textarea.form-control {
 }
 .site-footer-logo {
   margin-bottom: 50px;
+}
+.site-footer-logo a img {
+  width: 200px;
 }
 @media (max-width: 575px) {
   .site-footer-logo {
