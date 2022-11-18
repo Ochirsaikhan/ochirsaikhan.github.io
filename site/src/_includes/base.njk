@@ -52,7 +52,7 @@
       
         <div class="collapse navbar-collapse" id="sitenavbar">
           <ul class="navbar-nav ml-auto main-nav">
-            {% for navLink in nav.navLinks %}
+            {# {% for navLink in nav.navLinks %}
             <li class="nav-item">
               {% if navLink == "home" %}
                 <a class="nav-link" href="/">{{navLink | capitalize}}</a>
@@ -60,7 +60,16 @@
                 <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
               {% endif %} 
             </li>
-            {% endfor %}
+            {% endfor %} #}
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#project">Projects</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink}}">
                 <span class="btn-area">
