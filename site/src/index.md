@@ -15,7 +15,4 @@ hero:
 portfolio:
   subTitle: "Projects"
   title: "Crafting experiences and seeking to make the complex clear & beautiful."
-  seeAllbtn:
-    link: "portfolio"
-    text: "MORE WORKS"
 ---
