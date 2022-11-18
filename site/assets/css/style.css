@@ -231,7 +231,7 @@ textarea.form-control {
 .site-navigation .nav-item .nav-link {
   font-family: "Montserrat", sans-serif;
   /* font-weight: 600; */
-  color: white;
+  color: #ffadad;
   transition: all 0.3s ease;
   padding: 15px 18px;
   position: relative;
@@ -287,11 +287,12 @@ textarea.form-control {
     padding: 15px;
   }
 }
-
 .site-hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/hero-background.jpg");
+  background-image: 
+  linear-gradient(to bottom, rgba(17, 8, 30, 0.32), rgba(56, 9, 44, 0.13)),
+  url("../images/backgrounds/hero-background.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -309,8 +310,73 @@ textarea.form-control {
     padding: 150px 0;
   }
 }
+
+.site-hero-content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.separator {
+  background-color: #bda4de;
+  display: block;
+  width: 88px;
+  height: 4px;
+  margin-bottom: 25px;
+}
+
+.separator:nth-of-type(1) {
+  background-color: #97cb9c;
+  /* margin-left: 54px; */
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.good-button {
+  /* 874cd5 */
+  /* background: linear-gradient(270deg,#874cd5,#ef3636); */
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);;
+  /* font-size: 1.4em;
+  width: 150px;
+  color: white !important;
+  text-align: center;
+  padding: 5px;
+  transition: all .3s; */
+  width: 150px;
+  flex: 1 1 auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #5f3694;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-weight: 150px;
+}
+
+.good-button:hover .button-arrow {
+  transform: translateX(14px);
+}
+
+.good-button:hover {
+  text-decoration: none;
+  background-position: right center;
+  color: white;
+}
+
+.button-arrow {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  transform: translateX(10px);
+  transition: all .3s;
+}
+
+
+
 .site-hero-content h1, h6{
-  margin-bottom: 75px;
+  margin-bottom: 25px;
   color: white
 }
 @media (max-width: 991px) {
