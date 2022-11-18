@@ -3,13 +3,13 @@ layout: "layouts/homepage.njk"
 hero:
   subTitle: "ASPIRING SOFTWARE ENGINEER"
   title:
-    firstPara: "Hi there! I'm"
-    secondPara: "OCHIRSAIKHAN"
+    firstPara: "OCHIRSAIKHAN"
+    secondPara: "DAVAAJAMBAL"
   seeWorkBtn:
     text: "See Our Works"
     link: "#project"
   connectBtn: 
-    text: "Connect with us"
+    text: "Connect with me"
     link: "contact"
 
 portfolio:
