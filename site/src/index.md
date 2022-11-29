@@ -14,5 +14,5 @@ hero:
 
 portfolio:
   subTitle: "Projects"
-  title: "Crafting experiences and seeking to make the complex clear & beautiful."
+  title: "Crafting beautiful and maintanable software with passion."
 ---
