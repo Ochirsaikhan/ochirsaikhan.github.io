@@ -5,8 +5,10 @@ PROJECT:	Roxo HTML
 VERSION:	1.0.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
   font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   font-size: 16px;
   color: #9D9EA5;
 }
@@ -195,7 +197,7 @@ textarea.form-control {
 .site-navigation {
   padding: 20px 0;
   /* background: #fff; */
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 99;
@@ -291,7 +293,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   background-image: 
-  linear-gradient(to bottom, rgba(17, 8, 30, 0.32), rgba(56, 9, 44, 0.13)),
+  linear-gradient(to bottom, rgba(17, 8, 30, 0.32), rgba(56, 9, 44, 0.23)),
   url("../images/backgrounds/hero-background.jpg");
   background-size: cover;
   background-position: center center;
@@ -372,8 +374,6 @@ textarea.form-control {
   transform: translateX(10px);
   transition: all .3s;
 }
-
-
 
 .site-hero-content h1, h6{
   margin-bottom: 25px;
@@ -536,6 +536,40 @@ textarea.form-control {
   .move-position:nth-child(odd) {
     transform: translate(0);
   }
+}
+
+.about-me-section {
+  /* margin-top: 100px; */
+  /* background-color: brown; */
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+.about-me-page {
+  padding-top: 100px;
+  /* background-color: #5f3694; */
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-text {
+  /* background-color: #27452a; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  width: 55%;
+  padding: 20px;
+}
+
+.about-me-text h2 {
+  color: white;
+}
+
+.about-me-text p {
+  color: white;
+}
+
+.about-me-skills {
+  background-color: #200923;
+  width: 45%;
 }
 
 .site-project-cta {
