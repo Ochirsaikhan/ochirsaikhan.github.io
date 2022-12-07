@@ -1,0 +1,54 @@
+{
+  "footerLogo": "/assets/images/logo-footer.png",
+
+  "contactsHeading": "Contact Information",
+  "contactsInfo":[
+    {
+      "link":"https://www.google.com/maps?client=safari&rls=en&q=allegheny+college&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjOtILJoLH7AhVSElkFHRBhAtoQ_AUoAnoECAEQBA",
+      "text":"520 N Main St, Meadville, PA 16335"
+    },
+    {
+      "link":"tel:814-350-0145",
+      "text":"814-350-0145"
+    },
+    {
+      "link":"mailto:",
+      "text":"davaajambal01@allegheny.edu"
+    }
+  ],
+
+  "siteMapHeading":"Sitemap",
+  "siteMap":[
+    {
+      "link":"about",
+      "text":"About Me"
+    },
+    {
+      "link":"#project",
+      "text":"Projects"
+    },
+    {
+      "link":"privacy-policy",
+      "text":"Privacy Policy"
+    },
+    {
+      "link":"terms-conditions",
+      "text":"Terms & Condition"
+    }
+  ],
+
+  "socialHeading":"Social Media",
+  "socialMedia":[
+    {
+      "link":"https://www.linkedin.com/in/ochirsaikhan-davaajambal",
+      "text":"LinkedIn"
+    },
+    {
+      "link":"https://github.com/Ochirsaikhan",
+      "text":"GitHub"
+    }
+  ],
+  
+  "back2topIcon":"/assets/images/to-top.svg",
+  "customerComment":"I want to visit again"
+}
